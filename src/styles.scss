@@ -1,0 +1,75 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './variables.scss';
+
+body {
+    font-family: 'Finlandica', sans-serif;
+    font-size: 18px;
+    background-color: #62636510;
+}
+p{
+    font-size: 16px;
+}
+$navHeight: 80px;
+
+.vh-75 {
+    height: 75vh;
+}
+.bg-red{
+    background-color: rgb(143, 39, 8);
+}
+.bg-grey{
+    background-color: #5f636810;
+}
+.grey {
+    color: #5f6368;
+}
+.red {
+    color: rgb(143, 39, 8);
+}
+#Error {    
+    img {
+        width: 300px;
+        height: auto;
+    }
+    h2 {        
+        color: #5f6368;
+        font-size: 4rem;
+    }
+    a {
+        text-decoration: none;
+        color: white;        
+        background-color: #5f6368;
+    }
+    h5 {
+        font-size: 18px;
+        color: black;
+    }
+    button {
+        background-color: $mainbg;
+        border-radius: 10px;
+        border: 0;
+        color: rgba(245, 245, 245, 0.836);
+    }
+} 
+
+#recommendation{
+    a{
+        color: #000;
+    }
+    a:hover{
+        color: rgba(0, 0, 0, 0.623);
+    }
+}
+.boxContainer{
+    width: 24%;
+    padding: 1rem 20px;
+    @media screen and (max-width: 1024px) {
+        width: 33%; 
+    }
+    @media screen and (max-width: 768px) {
+        width: 49%; 
+    }
+    @media screen and (max-width: 520px) {
+        width: 100%; 
+    }
+}
